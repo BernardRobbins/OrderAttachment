@@ -3,7 +3,7 @@
     <head>
         <css src="Sp_Orderattachment::css/orderattachment.css"/>
     </head>
-    <update handle="editor"/>
+    <!-- update handle="editor"/ -->
     <body>
         <referenceBlock name="sales_order_tabs">
             <block class="Sp\Orderattachment\Block\Adminhtml\Order\View\Tab\Attachments" name="sales.order.view.tab.attachment" as="sp_attachments" template="order/view/tab/attachments.phtml"/>
